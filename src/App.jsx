@@ -7,6 +7,9 @@ import Hero from './Components/Hero/Hero';
 import Skill from './Components/Skill/Skill';
 import {BrowserRouter as Router } from 'react-router-dom';
 import Projects from "./Components/Projects/projects";
+import Achivements from './Components/Achivements/achivements';
+import Contact from './Components/Contact/Contact';
+
 
 const Body = styled.div`
   background-color: ${({theme})=>theme.bg};
@@ -29,11 +32,16 @@ function App() {
         <Router>
         <Navbar/>
         <Body>
+        
           <Hero/>
           <Wrapper>
             <Skill/>
           </Wrapper>
         <Projects/>
+          <Wrapper>
+            <Achivements/>
+          </Wrapper>
+          <Contact/>
         </Body>
         </Router>
         

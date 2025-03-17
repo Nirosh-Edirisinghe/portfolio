@@ -77,7 +77,7 @@ const Date = styled.div`
 `;
 const Description = styled.div`
     font-weight: 400;
-    color: ${({ theme }) => theme.text_secondary + 99};
+    color: ${({ theme }) => theme.text_secondary + 99}; 
     overflow: hidden;
     margin-top: 8px;
     display: -webkit-box;

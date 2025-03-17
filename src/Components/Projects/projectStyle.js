@@ -7,6 +7,8 @@ justify-content: center;
 position: relative;
 z-index: 1;
 align-items: center;
+padding-top: 50px;
+padding-bottom: 30px;
 `;
 
 export const Wrapper = styled.div`

@@ -5,7 +5,7 @@ import ProjectCard from '../Cards/ProjectCard';
 import { projects } from '../../Data/Constant';
 
 const Projects = () => {
-  const [toggle, setToggle] = useState('all');
+  const [toggle, setToggle] = useState('all'); 
   return (
     <div>
       <Container id="projects">

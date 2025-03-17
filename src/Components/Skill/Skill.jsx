@@ -4,7 +4,7 @@ import { Container, Wrapper, Title, Desc, SkillsContainer, Skills, SkillTitle, S
 
 const Skill = () => {
   return (
-    <Container id="skill">
+    <Container id="skill"> 
       <Wrapper>
         <Title>Skills</Title>
         <Desc>Here are some of my skills on which I have been working.

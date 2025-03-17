@@ -82,6 +82,7 @@ export const HeroRightContainer = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 80px;
+    padding-top: 50px;
     
   }
 
@@ -134,11 +135,11 @@ export const SubTitle = styled.div`
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary+95};
 
-  @media scren and (max-width: 960px) {
+  @media screen and (max-width: 960px) {
     text-align: center;
   }
 
-  @media scren and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
     font-size: 16px;
     line-height: 32px;
   }
@@ -188,13 +189,13 @@ export const Image = styled.img`
   border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
 
-  @media scren and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     max-width: 400px;
     max-height: 400px;
   }
 
-  @media scren and (max-width: 640px) {
-    max-width: 280px;
-    max-height: 280px;
+  @media screen and (max-width: 640px) {
+    max-width: 200px;
+    max-height: 200px;
   }
 `;

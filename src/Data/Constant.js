@@ -7,7 +7,7 @@ export const Bio = {
    ],
    description:
      " Passionate Frontend Developer specializing in React.js, with a strong foundation in modern web technologies. Currently pursuing a BICT (Hons) degree at Rajarata University of Sri Lanka, I focus on building intuitive, high-performance, and responsive web applications. With a collaborative mindset and problem-solving approach.",
-   github: "https://github.com/rishavchanda",
+   github: "https://github.com/Nirosh-Edirisinghe",
    resume:
      "https://drive.google.com/file/d/1ffZrcMcn8UatXGIaautbbqpV7ADNaETA/view?usp=sharing",
    linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
@@ -353,6 +353,117 @@ export const Bio = {
    },
   
  ];
+ export const achivements = [
+  {
+    id: 1,
+    title: "Itrodction to DevOps Tool",
+    date: "Simplilearn - Mar 2025",
+    image:
+      "src/assets/images/itrodctiondevops.png",
+    tags: [
+      "Git & GitHub",
+      "Docker",
+      "Kubernetes",
+       "Jenkins",
+    ],
+    github: "#",
+    
+  },
+  {
+    id: 2,
+    title: "HTML,CSS,Java,JavaScript Programming",
+    date: "Udemy - Dec 2024",
+    image:
+      "src/assets/images/fullstack.png",
+    tags: [
+      "OOP ",
+      "CSS ",
+      "HTML5 ",
+       "JavaScript ",
+       "Java ",
+    ],
+    github: "#",
+    
+  },{
+    id: 3,
+    title: "Python for Biginner",
+    date: "University of Moratuwa - Jav 2025",
+    image:
+      "src/assets/images/python.png",
+    tags: [
+      "Python",
+    ],
+    github: "#",
+    
+  },{
+    id: 4,
+    title: "Introduction to FrontEnd Development",
+    date: "Simplilearn - Feb 2025",
+    image:
+      "src/assets/images/frontend.png",
+    tags: [
+      "CSS ",
+      "HTML5 ",
+      "JavaScript ",
+       "Angular Js",
+    ],
+    github: "#",
+    
+  },{
+    id: 5,
+    title: "Web Dedign for Biginner",
+    date: "University of Moratuwa - jan 2025",
+    image:
+      "src/assets/images/webdesign.png",
+    tags: [
+      "Web Programming & Cloud Commputing",
+      "CSS ",
+      "HTML5 ",
+       "JavaScript",
+    ],
+    github: "#",
+    
+  },{
+    id: 6,
+    title: "Foundation of Web Development",
+    date: "Udemy - Mar 2025",
+    image:
+      "src/assets/images/webfundamental.png",
+    tags: [
+      "CSS ",
+      "Bootstrap ",
+      "JavaScript",
+       "React Js",
+    ],
+    github: "#",
+    
+  },{
+    id: 7,
+    title: "JavaScrpt Fundamentals",
+    date: "GreatStack - Jav 2025",
+    image:
+      "src/assets/images/GSjavascript.png",
+    tags: [
+      "JavaScript",
+    ],
+    github: "#",
+    
+  },
+  {
+    id: 8,
+    title: "Fundamentals of DevOps",
+    date: "KodeKloud - Feb 2025",
+    image:
+      "src/assets/images/devops.png",
+    tags: [
+      "Git & GitHub",
+    ],
+    github: "#",
+    
+  },
+  
+
+]
  
  export const TimeLineData = [
    { year: 2017, text: "Started my journey" },

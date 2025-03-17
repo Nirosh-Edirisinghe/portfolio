@@ -4,13 +4,14 @@ import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
 import { useTheme } from 'styled-components';
 import { useState } from 'react';
+import { Bio } from '../../Data/Constant';
 
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const theme = useTheme();
   return (
-    <div>
+    <div> 
       <Nav>
          <NavContainer>
             <NavLogo to="/">
@@ -25,12 +26,12 @@ const Navbar = () => {
             <NavItems>
                <NavLink href='#about'>About</NavLink>
                <NavLink href='#skill'>Skills</NavLink>
-               <NavLink href='#experience'>Experience</NavLink>
                <NavLink href='#projects'>projects</NavLink>
-               <NavLink href='#education'>Education</NavLink>
+               <NavLink href='#achivements'>Achivement</NavLink>
+               <NavLink href='#contact'>Contsct</NavLink>
             </NavItems>
             <ButtonContainer>
-               <GithubButton>Github Profile</GithubButton>
+               <GithubButton href={Bio.github} target="_blank">Github Profile</GithubButton>
             </ButtonContainer>
             {
           isOpen &&

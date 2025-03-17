@@ -8,7 +8,8 @@ export const Nav = styled.div`
    justify-content:center;
    align-items:center;
    font-size:1rem;
-   position:sticky;
+   position:fixed;
+    width:100%;
    top:0;
    z-index:10;
    @media screen and (max-width:960px){
@@ -83,8 +84,9 @@ export const ButtonContainer = styled.div`
     display:none;
   }`;
 
-export const GithubButton = styled.button`
+export const GithubButton = styled.a`
 background-color: transparent;
+text-decoration:none;
 color:${({theme})=>theme.primary};
 border: 1.8px solid ${({theme})=>theme.primary};
 border-radius:20px;

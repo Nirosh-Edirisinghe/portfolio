@@ -6,7 +6,7 @@ export const HeroContainer = styled.div`
   justify-content: center;
   position: relative;
   padding: 80px 30px;
- export con@media screen and(max-width: 960px) {
+ @media screen and(max-width: 960px) {
     padding: 66px 16px;
   }
  @media screen and (max-width: 640px) {
@@ -60,6 +60,8 @@ export const HeroLeftContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center; 
+    width: 100%; 
   }
 
  @media screen and (max-width: 640px) {
@@ -68,6 +70,8 @@ export const HeroLeftContainer = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 `;
 
@@ -144,8 +148,17 @@ export const SubTitle = styled.div`
     line-height: 32px;
   }
 `;
-
-export const ResumeButton = styled.a`
+export const ButtonContainer = styled.div`
+  display:flex;
+  align-items:center;
+  justify-content:Start;
+  width:80%;
+  height:100%;
+  padding:0 6px;
+  @media screen and (max-width:640px){
+    justify-content:Center;
+  }`;
+  export const ResumeButton = styled.a`
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
@@ -166,12 +179,13 @@ export const ResumeButton = styled.a`
     background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
+    z-index: 10;
     &:hover {
-    transform: scale(1.05);
+        transform: scale(1.05);
     transition: all 0.4s ease-in-out;
-    box-shadow: 20px 20px 60px #1F2634, -20px -20px 60px #1F2634;
+    box-shadow:  20px 20px 60px #1F2634,
     filter: brightness(1);
-}
+    }    
     
     
     @media (max-width: 640px) {
@@ -180,6 +194,7 @@ export const ResumeButton = styled.a`
     } 
 
 `;
+
 export const Image = styled.img`
   position: relative;
   width: 100%;

@@ -9,6 +9,7 @@ import {BrowserRouter as Router } from 'react-router-dom';
 import Projects from "./Components/Projects/projects";
 import Achivements from './Components/Achivements/achivements';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 
 const Body = styled.div`
@@ -29,21 +30,22 @@ function App() {
   return (
     <>
       <ThemeProvider theme={darkTheme}>
-        <Router>
-        <Navbar/>
-        <Body>
         
+        <Router>
+          <Navbar/>
+          <Body>
           <Hero/>
-          <Wrapper>
-            <Skill/>
-          </Wrapper>
-        <Projects/>
-          <Wrapper>
-            <Achivements/>
-          </Wrapper>
+            <Wrapper>
+              <Skill/>
+            </Wrapper>
+          <Projects/>
+            <Wrapper>
+              <Achivements/>
+            </Wrapper>
           <Contact/>
-        </Body>
-        </Router>
+          <Footer/>
+          </Body>
+          </Router>
         
         </ThemeProvider>
 

@@ -4,12 +4,12 @@ export const Container = styled.div`
 display: flex;
 flex-direction: column;
 justify-content: center;
-padding-top: 50px;
+padding-top: 60px;
 position: relative;
 z-index: 1;
 align-items: center;
 @media (max-width: 960px) {
-    padding: 0px;
+    padding: 60px;
 }
 `
 
@@ -61,6 +61,7 @@ export const ContactForm = styled.form`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
+  
 `
 
 export const ContactTitle = styled.div`
@@ -101,6 +102,7 @@ export const ContactInputMessage = styled.textarea`
 export const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
+  cursor-pointer: pointer;
   text-align: center;
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
@@ -113,4 +115,11 @@ export const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  transition:0.2s ease-in-out !important;
+  &:hover{
+  transform: scale(1.05)
+   background-color:${({theme})=>theme.primary};
+   color:${({theme})=>theme.white};
+}
+
 `

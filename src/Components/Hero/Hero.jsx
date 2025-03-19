@@ -1,11 +1,13 @@
 import React from 'react'
-import { HeroContainer,HeroBg,HeroInnerContainer,HeroLeftContainer,HeroRightContainer,Title,H1,Span,SubTitle,ResumeButton,Image} from './HeroStyle'
-import {Bio} from '../../Data/Constant'
+import { HeroContainer,HeroBg,HeroInnerContainer,HeroLeftContainer,HeroRightContainer,Title,H1,Span,SubTitle,ResumeButton,ButtonContainer,Image} from './HeroStyle'
+import { Bio } from '../../Data/Constant'
 import {Typewriter} from 'react-simple-typewriter'
 import my1 from '../../Assets/images/my1.jpg'
 import HeroBgAnimation from '../../HeroBgAnimation/HeroBgAnimation'
 
+
 const Hero = () => {
+  
   return (
     <div>
       <div id="about">
@@ -29,15 +31,23 @@ const Hero = () => {
                             </Span>
                           </H1>
                           <SubTitle>{Bio.description}</SubTitle>
-                          <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>  
+                          <ButtonContainer>
+                          <ResumeButton href={Bio.resume} target="_blank">Check Resume</ResumeButton>
+                          </ButtonContainer>
+                         
+                          
+                         
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
                         <Image src={my1} alt="my" />
                     </HeroRightContainer>
+                    
                 </HeroInnerContainer>
-
+                
             </HeroContainer>
+          
+                          
         </div>
     </div>
   )

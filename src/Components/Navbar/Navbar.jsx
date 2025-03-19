@@ -8,8 +8,15 @@ import { Bio } from '../../Data/Constant';
 
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = React.useState(false);
+  const [isOpen, setIsOpen] = useState(false);
   const theme = useTheme();
+  const handleScroll = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+      setIsOpen(false); // Close the menu
+    }
+  };
   return (
     <div> 
       <Nav>
@@ -36,22 +43,12 @@ const Navbar = () => {
             {
           isOpen &&
           <MobileMenu isOpen={isOpen}>
-            <MobileMenuLink href="#about" onClick={() => {
-              setIsOpen(!isOpen)
-            }}>About</MobileMenuLink>
-            <MobileMenuLink href='#skills' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Skills</MobileMenuLink>
-            <MobileMenuLink href='#experience' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Experience</MobileMenuLink>
-            <MobileMenuLink href='#projects' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Projects</MobileMenuLink>
-            <MobileMenuLink href='#education' onClick={() => {
-              setIsOpen(!isOpen)
-            }}>Education</MobileMenuLink>
-            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href='/' target="_blank">Github Profile</GithubButton>
+            <MobileMenuLink onClick={() => handleScroll('about')}>About</MobileMenuLink>
+            <MobileMenuLink onClick={() => handleScroll('skill')}>Skills</MobileMenuLink>
+            <MobileMenuLink onClick={() => handleScroll('projects')}>Project</MobileMenuLink>
+            <MobileMenuLink onClick={() => handleScroll('achivements')}>Achivement</MobileMenuLink>
+            <MobileMenuLink onClick={() => handleScroll('contact')}>Contact</MobileMenuLink>
+            <GithubButton style={{padding: '10px 16px',background: `${theme.primary}`, color: 'white',width: 'max-content'}} href={Bio.github} target="_blank">Github Profile</GithubButton>
           </MobileMenu>
         }
          </NavContainer>

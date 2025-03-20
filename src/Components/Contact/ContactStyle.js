@@ -51,7 +51,7 @@ export const Desc = styled.div`
     }
 `;
 export const ContactForm = styled.form`
-  width: 95%;
+  width: 95%; 
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -61,6 +61,7 @@ export const ContactForm = styled.form`
   box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
+  transition: all 0.2s ease-in-out !important;
   
 `
 
@@ -116,10 +117,11 @@ export const ContactButton = styled.input`
   font-size: 18px;
   font-weight: 600;
   transition:0.2s ease-in-out !important;
-  &:hover{
-  transform: scale(1.05)
-   background-color:${({theme})=>theme.primary};
-   color:${({theme})=>theme.white};
-}
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    box-shadow:  20px 20px 60px #1F2634,
+    filter: brightness(1);
+    }   
 
 `

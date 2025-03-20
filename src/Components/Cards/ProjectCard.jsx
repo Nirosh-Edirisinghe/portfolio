@@ -112,6 +112,7 @@ font-size:1rem;
 font-weight:500;
 cursor:pointer;
 height:50px;
+width:150px;
 &:hover{
    background-color:${({theme})=>theme.primary};
    color:${({theme})=>theme.white};
@@ -137,7 +138,7 @@ const ProjectCard = ({project}) => {
             </Details>
            
             <ButtonContainer>
-                <GithubButton href={project.github} target="_blank">Github Profile</GithubButton>
+                <GithubButton href={project.github} target="_blank">Github</GithubButton>
             </ButtonContainer>
                
              

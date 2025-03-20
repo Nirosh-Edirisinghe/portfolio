@@ -120,7 +120,7 @@ export const Bio = {
      description:
        "This System is a software solution designed to streamline pharmacy operations by managing inventory, processing sales, and generating bills efficiently.",
      image:
-       "assets/parmacy1.png",
+       "parmacy1.png",
      tags: ["Java", "MySQL", "NetBeans"],
      category: "fullStack",
      github: "#",

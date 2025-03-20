@@ -1,15 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
 
+
 const Card = styled.div`
-    width: 330px;
-    height: 490px;
+    width: 350px;
+    height: 550px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 0 12px 4px rgba(0,0,0,0.4);
     overflow: hidden;
-    padding: 26px 20px;
+    padding: 26px 20px 0px 20px;
     display: flex;
     flex-direction: column;
     gap: 14px;
@@ -82,9 +83,42 @@ const Description = styled.div`
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    text-overflow: ellipsis;
+    
+`;
+const ButtonContainer = styled.div`
+  display:flex;
+  align-items:end;  
+  justify-content:center;
+  width:100%;
+  height:80%;
+  padding:0 6px;
+  margin-bottom:30px;
+  
+  @media screen and (max-width:640px){
+    justify-content:center;
+  }`;
+
+const GithubButton = styled.a`
+background-color: transparent;
+text-decoration:none;
+color:${({theme})=>theme.primary};
+border: 1.8px solid ${({theme})=>theme.primary};
+border-radius:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+padding:0px 20px;
+font-size:1rem;
+font-weight:500;
+cursor:pointer;
+height:50px;
+&:hover{
+   background-color:${({theme})=>theme.primary};
+   color:${({theme})=>theme.white};
+}
+   @media screen and (max-width:640px){
+   font-size:0.8rem;
+   }
 `;
 const ProjectCard = ({project}) => {
   return (
@@ -101,6 +135,12 @@ const ProjectCard = ({project}) => {
                 <Date>{project.date}</Date>
                 <Description>{project.description}</Description>
             </Details>
+           
+            <ButtonContainer>
+                <GithubButton href={project.github} target="_blank">Github Profile</GithubButton>
+            </ButtonContainer>
+               
+             
             
         </Card>
     </div>

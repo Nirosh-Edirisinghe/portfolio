@@ -36,6 +36,8 @@ export const HeroBg = styled.div`
  @media screen and (max-width: 960px) {
     justify-content: center;
     padding: 0 0px;
+    
+    
   }
 `;
 

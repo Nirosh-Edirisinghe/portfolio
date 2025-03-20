@@ -82,7 +82,7 @@ export const CardContainer = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 28px;
+    gap: 14px;
     flex-wrap: wrap;
     // display: grid;
     // grid-template-columns: repeat(3, 1fr);

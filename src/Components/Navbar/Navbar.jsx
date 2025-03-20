@@ -22,7 +22,7 @@ const Navbar = () => {
       <Nav>
          <NavContainer>
             <NavLogo to="/">
-            <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
+            <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20', cursor: 'pointer' }}>
             <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
           </a>
             </NavLogo>
@@ -35,7 +35,7 @@ const Navbar = () => {
                <NavLink href='#skill'>Skills</NavLink>
                <NavLink href='#projects'>projects</NavLink>
                <NavLink href='#achivements'>Achivement</NavLink>
-               <NavLink href='#contact'>Contsct</NavLink>
+               <NavLink href='#contact'>Contact</NavLink>
             </NavItems>
             <ButtonContainer>
                <GithubButton href={Bio.github} target="_blank">Github Profile</GithubButton>

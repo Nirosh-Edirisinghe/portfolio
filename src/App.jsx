@@ -16,7 +16,7 @@ const Body = styled.div`
   background-color: ${({theme})=>theme.bg};
   width : 100%;
   height: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
   `;
 
   const Wrapper = styled.div`

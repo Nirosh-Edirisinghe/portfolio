@@ -102,7 +102,7 @@ export const Bio = {
      description:
        "AI News Voice Assistant is a voice-controlled news platform that provides real-time, personalized news updates. Built with React.js.",
      image:
-       "src/assets/images/news.png",
+       "news.png",
      tags: [
        "React Js",
        "Alan AI",

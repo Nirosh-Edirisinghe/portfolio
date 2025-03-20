@@ -16,25 +16,25 @@ const Projects = () => {
         </Desc>
         <ToggleButtonGroup >
         {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton active="true" onClick={() => setToggle('all')}>All</ToggleButton>
             :
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
         <Divider />
         {toggle === 'fullStack' ?
-            <ToggleButton active value="fullStack" onClick={() => setToggle('fullStack')}>Full Stack</ToggleButton>
+            <ToggleButton active="true" onClick={() => setToggle('fullStack')}>Full Stack</ToggleButton>
             :
             <ToggleButton value="fullStack" onClick={() => setToggle('fullStack')}>Full Stack</ToggleButton>
           }
         <Divider />
         {toggle === 'frontend' ?
-            <ToggleButton active value="frontend" onClick={() => setToggle('frontend')}>FrontEnd</ToggleButton>
+            <ToggleButton active="true" onClick={() => setToggle('frontend')}>FrontEnd</ToggleButton>
             :
             <ToggleButton value="frontend" onClick={() => setToggle('frontend')}>FrontEnd</ToggleButton>
           }
           <Divider />
           {toggle === 'mini' ?
-            <ToggleButton active value="mini" onClick={() => setToggle('mini')}>Mini Project's</ToggleButton>
+            <ToggleButton active="true" onClick={() => setToggle('mini')}>Mini Project's</ToggleButton>
             :
             <ToggleButton value="mini" onClick={() => setToggle('mini')}>Mini Project's</ToggleButton>
           }
@@ -42,8 +42,8 @@ const Projects = () => {
         </ToggleButtonGroup>
         <CardContainer>
         {toggle === 'all' && projects
-            .map((project) => 
-              <ProjectCard project={project} />
+            .map((project,index) => 
+              <ProjectCard key={index} project={project} />
             )}
             {projects
             .filter((item) => item.category == toggle)

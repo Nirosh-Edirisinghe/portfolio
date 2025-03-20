@@ -14,8 +14,8 @@ const Achivements = () => {
           </Desc>
          </Wrapper>
          <CardContainer>
-         { achivements.map((achivement) => 
-              <AchivementCard achivement={achivement} />
+         { achivements.map((achivement,index) => 
+              <AchivementCard key={index} achivement={achivement} />
             )}
           
          </CardContainer>

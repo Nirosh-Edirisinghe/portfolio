@@ -118,7 +118,7 @@ export const Bio = {
      title: "Pharmacy Management and Billing System",
      date: "jun 2023 - Nov 2023",
      description:
-       "Pharmacy Management and Billing System is a software solution designed to streamline pharmacyoperations by managing inventory, processing sales, and generating bills efficiently.",
+       "This System is a software solution designed to streamline pharmacy operations by managing inventory, processing sales, and generating bills efficiently.",
      image:
        "src/assets/images/parmacy1.png",
      tags: ["Java", "MySQL", "NetBeans"],
@@ -136,7 +136,7 @@ export const Bio = {
       "src/assets/images/ecommercec.png",
     tags: ["React.js", "Tailwind CSS"],
     category: "frontend",
-    github: "#",
+    github: "https://github.com/Nirosh-Edirisinghe/Ecommerse-site.git",
     webapp: "#",
   },
    {
@@ -144,7 +144,7 @@ export const Bio = {
      title: "Restaurant Point of Sale (POS) System",
      date: "Jun 2022 - Nov 2022",
      description:
-       "Restaurant Point of Sale (POS) System is designed to streamline restaurant operations by managing orders, processing payments, tracking inventory and improving customer experience and business efficiency.",
+       "Restaurant (POS) System is designed to streamline restaurant operations by managing orders, processing payments, tracking inventory and improving customer.",
      image:
        "src/assets/images/pos.png",
      tags: [
@@ -165,7 +165,7 @@ export const Bio = {
        "src/assets/images/cofeeshop.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "frontend",
-     github: "#",
+     github: "https://github.com/Nirosh-Edirisinghe/cofee_shop_website.git",
      webapp: "#",
    },
    {
@@ -178,7 +178,7 @@ export const Bio = {
        "src/assets/images/resturant.png",
      tags: ["React Js", "Modern UI & UX"],
      category: "frontend",
-     github: "#",
+     github: "https://github.com/Nirosh-Edirisinghe/Resturant-Web.git",
      webapp: "#",
    },
    
@@ -192,7 +192,7 @@ export const Bio = {
        "src/assets/images/imagesearch.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "mini",
-     github: "#",
+     github: "https://github.com/Nirosh-Edirisinghe/Js_Image_Search_App.git",
      webapp: "#",
    },
    {
@@ -205,7 +205,7 @@ export const Bio = {
        "src/assets/images/weather.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "mini",
-     github: "#",
+     github: "https://github.com/Nirosh-Edirisinghe/Js_weather_app.git",
      webapp: "#",
    },
    {
@@ -218,7 +218,7 @@ export const Bio = {
        "src/assets/images/todo.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "mini",
-     github: "#",
+     github: "https://github.com/Nirosh-Edirisinghe/Todo-LIst.git",
      webapp: "#",
    },
   

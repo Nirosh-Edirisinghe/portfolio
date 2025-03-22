@@ -16,7 +16,8 @@ const Body = styled.div`
   background-color: ${({theme})=>theme.bg};
   width : 100%;
   height: 100%;
-  overflow-x: hidden;
+  min-height: 100vh;
+  overflow: auto;
   `;
 
   const Wrapper = styled.div`

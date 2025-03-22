@@ -2,6 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 
+
 const Card = styled.div`
     width: 350px;
     height: 550px;

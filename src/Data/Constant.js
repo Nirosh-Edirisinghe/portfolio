@@ -102,7 +102,7 @@ export const Bio = {
      description:
        "AI News Voice Assistant is a voice-controlled news platform that provides real-time, personalized news updates. Built with React.js.",
      image:
-       "src/assets/images/news.png",
+       "news.png",
      tags: [
        "React Js",
        "Alan AI",
@@ -120,7 +120,7 @@ export const Bio = {
      description:
        "This System is a software solution designed to streamline pharmacy operations by managing inventory, processing sales, and generating bills efficiently.",
      image:
-       "src/assets/images/parmacy1.png",
+       "parmacy1.png",
      tags: ["Java", "MySQL", "NetBeans"],
      category: "fullStack",
      github: "#",
@@ -133,7 +133,7 @@ export const Bio = {
     description:
       "E-commerce Website featuring a Home page with product highlights and a Product Collection page with filtering, sorting, and search for an optimized shopping experience",
     image:
-      "src/assets/images/ecommercec.png",
+      "ecommercec.png",
     tags: ["React.js", "Tailwind CSS"],
     category: "frontend",
     github: "https://github.com/Nirosh-Edirisinghe/Ecommerse-site.git",
@@ -146,7 +146,7 @@ export const Bio = {
      description:
        "Restaurant (POS) System is designed to streamline restaurant operations by managing orders, processing payments, tracking inventory and improving customer.",
      image:
-       "src/assets/images/pos.png",
+       "pos.png",
      tags: [
        "C#",
        "Visual Studio 2012",
@@ -162,7 +162,7 @@ export const Bio = {
      description:
        "A fully responsive coffee shop website featuring six sections Hero, About, Menu, Testimonials, Gallery, and Contact, along with a navigation menu and footer.",
      image:
-       "src/assets/images/cofeeshop.png",
+       "cofeeshop.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "frontend",
      github: "https://github.com/Nirosh-Edirisinghe/cofee_shop_website.git",
@@ -175,7 +175,7 @@ export const Bio = {
      description:
        "restaurant website offers a seamless and visually appealing experience with sections for Home, About, Menu, Awards, and Contact",
      image:
-       "src/assets/images/resturant.png",
+       "resturant.png",
      tags: ["React Js", "Modern UI & UX"],
      category: "frontend",
      github: "https://github.com/Nirosh-Edirisinghe/Resturant-Web.git",
@@ -189,7 +189,7 @@ export const Bio = {
      description:
         "image search web app allows users to search for images, view relevant details, and easily download the images. It is fully responsive, ensuring a seamless experience on both desktop and mobile devices.",
      image:
-       "src/assets/images/imagesearch.png",
+       "imagesearch.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "mini",
      github: "https://github.com/Nirosh-Edirisinghe/Js_Image_Search_App.git",
@@ -202,7 +202,7 @@ export const Bio = {
      description:
      "weather app allows users to search for a location and view real-time weather details. It provides essential information such as temperature, humidity, and weather conditions.",
      image:
-       "src/assets/images/weather.png",
+       "weather.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "mini",
      github: "https://github.com/Nirosh-Edirisinghe/Js_weather_app.git",
@@ -215,7 +215,7 @@ export const Bio = {
      description:
      "To-do list app helps users manage tasks by adding, editing, and removing items from their to-do list. It offers a simple and intuitive interface, making task management easy.",
      image:
-       "src/assets/images/todo.png",
+       "todo.png",
      tags: ["HTML", "CSS", "JavaScript"],
      category: "mini",
      github: "https://github.com/Nirosh-Edirisinghe/Todo-LIst.git",
@@ -229,7 +229,7 @@ export const Bio = {
     title: "Itrodction to DevOps Tool",
     date: "Simplilearn - Mar 2025",
     image:
-      "src/assets/images/itrodctiondevops.png",
+      "itrodctiondevops.png",
     tags: [
       "Git & GitHub",
       "Docker",
@@ -244,7 +244,7 @@ export const Bio = {
     title: "HTML,CSS,Java,JavaScript Programming",
     date: "Udemy - Dec 2024",
     image:
-      "src/assets/images/fullstack.png",
+      "fullstack.png",
     tags: [
       "OOP ",
       "CSS ",
@@ -259,7 +259,7 @@ export const Bio = {
     title: "Python for Biginner",
     date: "University of Moratuwa - Jav 2025",
     image:
-      "src/assets/images/python.png",
+      "python.png",
     tags: [
       "Python",
     ],
@@ -270,7 +270,7 @@ export const Bio = {
     title: "Introduction to FrontEnd Development",
     date: "Simplilearn - Feb 2025",
     image:
-      "src/assets/images/frontend.png",
+      "frontend.png",
     tags: [
       "CSS ",
       "HTML5 ",
@@ -284,7 +284,7 @@ export const Bio = {
     title: "Web Dedign for Biginner",
     date: "University of Moratuwa - jan 2025",
     image:
-      "src/assets/images/webdesign.png",
+      "webdesign.png",
     tags: [
       "Web Programming & Cloud Commputing",
       "CSS ",
@@ -298,7 +298,7 @@ export const Bio = {
     title: "Foundation of Web Development",
     date: "Udemy - Mar 2025",
     image:
-      "src/assets/images/webfundamental.png",
+      "webfundamental.png",
     tags: [
       "CSS ",
       "Bootstrap ",
@@ -312,7 +312,7 @@ export const Bio = {
     title: "JavaScrpt Fundamentals",
     date: "GreatStack - Jav 2025",
     image:
-      "src/assets/images/GSjavascript.png",
+      "GSjavascript.png",
     tags: [
       "JavaScript",
     ],
@@ -324,7 +324,7 @@ export const Bio = {
     title: "Fundamentals of DevOps",
     date: "KodeKloud - Feb 2025",
     image:
-      "src/assets/images/devops.png",
+      "devops.png",
     tags: [
       "Git & GitHub",
     ],

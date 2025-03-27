@@ -110,7 +110,7 @@ export const Bio = {
         "NewsAPI",
      ],
      category: "fullStack",
-     github: "#",
+     github: "https://github.com/Nirosh-Edirisinghe/Ai-News-Application.git",
      webapp: "#",
    },
    {

@@ -123,7 +123,7 @@ export const Bio = {
        "parmacy1.png",
      tags: ["Java", "MySQL", "NetBeans"],
      category: "fullStack",
-     github: "#",
+     github: "https://github.com/Nirosh-Edirisinghe/pharmacy-management-system.git",
      webapp: "#",
    },
    {

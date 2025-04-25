@@ -9,7 +9,7 @@ export const Bio = {
      " Passionate Frontend Developer specializing in React.js, with a strong foundation in modern web technologies. Currently pursuing a BICT (Hons) degree at Rajarata University of Sri Lanka, I focus on building intuitive, high-performance, and responsive web applications. With a collaborative mindset and problem-solving approach.",
    github: "https://github.com/Nirosh-Edirisinghe",
    resume:
-     "https://drive.google.com/file/d/1U6mhD5gI2pLnpFd1V8orthO5sGMBtehD/view?usp=sharing",
+     "https://drive.google.com/file/d/1m-ETMIlLFQhVuO9hUS-j5b0Ebq_2lOYD/view?usp=sharing",
    linkedin: "https://www.linkedin.com/in/nirosh-edirisinghe-a13663329/",
    insta: "https://www.instagram.com/niroshedirisighe/",
    facebook: "https://www.facebook.com/nirosh.edirisingha.3",

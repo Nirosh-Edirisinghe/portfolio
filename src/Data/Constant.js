@@ -9,7 +9,7 @@ export const Bio = {
      " Passionate Frontend Developer specializing in React.js, with a strong foundation in modern web technologies. Currently pursuing a BICT (Hons) degree at Rajarata University of Sri Lanka, I focus on building intuitive, high-performance, and responsive web applications. With a collaborative mindset and problem-solving approach.",
    github: "https://github.com/Nirosh-Edirisinghe",
    resume:
-     "https://drive.google.com/file/d/1THWHTpVPbY0MK8ZsA16ZGhmCmr_mTvRf/view?usp=sharing",
+     "https://drive.google.com/file/d/164RkzrA8VfjPBDWVqucCy7UHQ6tfCtnz/view?usp=sharing",
    linkedin: "https://www.linkedin.com/in/nirosh-edirisinghe-a13663329/",
    insta: "https://www.instagram.com/niroshedirisighe/",
    facebook: "https://www.facebook.com/nirosh.edirisingha.3",
@@ -219,6 +219,34 @@ export const Bio = {
      tags: ["HTML", "CSS", "JavaScript"],
      category: "mini",
      github: "https://github.com/Nirosh-Edirisinghe/Todo-LIst.git",
+     webapp: "#",
+   },
+
+    {
+     id: 11,
+     title: "Movie Explorer App",
+     date: "2025",
+     description:
+     "Developed a responsive Movie Explorer web app using TMDb API that allows users to log in, search, and explore movies with detailed info like overview, genre, and trailer.",
+     image:
+       "movie.png",
+     tags: ["Vite", "React", " Material-UI", "Axios", "TMDb API"],
+     category: "fullStack",
+     github: "https://github.com/Nirosh-Edirisinghe/movie-explore-app.git",
+     webapp: "#",
+   },
+
+    {
+     id: 12,
+     title: "Tourism_Web",
+     date: "2025",
+     description:
+     "Traventorat is a simple and elegant tourism website. It provides users with a clean interface to explore travel options, learn about services, and easily get in touch for inquiries.",
+     image:
+       "tourism.png",
+     tags: ["HTML", "CSS", "JavaScript"],
+     category: "frontend",
+     github: "https://github.com/Nirosh-Edirisinghe/Tourism_Web.git",
      webapp: "#",
    },
   

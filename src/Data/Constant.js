@@ -3,13 +3,14 @@ export const Bio = {
    roles: [
       " ICT Undergraduate",
       "Frontend Developer",
+      "FullStack Developer",
      "React Enthusiast",
    ],
    description:
      " Passionate Frontend Developer specializing in React.js, with a strong foundation in modern web technologies. Currently pursuing a BICT (Hons) degree at Rajarata University of Sri Lanka, I focus on building intuitive, high-performance, and responsive web applications. With a collaborative mindset and problem-solving approach.",
    github: "https://github.com/Nirosh-Edirisinghe",
    resume:
-     "https://drive.google.com/file/d/164RkzrA8VfjPBDWVqucCy7UHQ6tfCtnz/view?usp=sharing",
+     "https://drive.google.com/file/d/1nhf69rxqkWxinJ5FPdodxiHcBRJktOoN/view?usp=sharing",
    linkedin: "https://www.linkedin.com/in/nirosh-edirisinghe-a13663329/",
    insta: "https://www.instagram.com/niroshedirisighe/",
    facebook: "https://www.facebook.com/nirosh.edirisingha.3",
@@ -231,7 +232,7 @@ export const Bio = {
      image:
        "movie.png",
      tags: ["Vite", "React", " Material-UI", "Axios", "TMDb API"],
-     category: "fullStack",
+     category: "frontend",
      github: "https://github.com/Nirosh-Edirisinghe/movie-explore-app.git",
      webapp: "#",
    },

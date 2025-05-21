@@ -7,7 +7,7 @@ export const Bio = {
      "React Enthusiast",
    ],
    description:
-     " Passionate Frontend Developer specializing in React.js, with a strong foundation in modern web technologies. Currently pursuing a BICT (Hons) degree at Rajarata University of Sri Lanka, I focus on building intuitive, high-performance, and responsive web applications. With a collaborative mindset and problem-solving approach.",
+     " Creative Web Developer with a passion for crafting responsive, high-performing web apps using modern web tech. Currently pursuing a BICT (Hons) at Rajarata University of Sri Lanka, I thrive on turning ideas into seamless digital experiences through clean code and collaboration.",
    github: "https://github.com/Nirosh-Edirisinghe",
    resume:
      "https://drive.google.com/file/d/1nhf69rxqkWxinJ5FPdodxiHcBRJktOoN/view?usp=sharing",
